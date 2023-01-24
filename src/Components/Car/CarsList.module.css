@@ -1,0 +1,20 @@
+.cars-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        margin: 20px;
+        padding: 5px;
+        width: 100%; /*1*/
+        background-color: grey; /*3*/
+        box-shadow: 0px 5px 20px #999; /*4*/
+        text-align:center;  /*1*/
+        box-sizing: border-box;
+        border-radius: 2%;
+        
+
+}
+
+h3 {
+    text-align: center;
+} 
+

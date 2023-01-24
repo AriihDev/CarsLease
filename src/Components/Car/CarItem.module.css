@@ -1,0 +1,9 @@
+img{
+    width: 100%;
+}
+
+.cta-icon , .cta-item {
+    align-items: center;
+    display: inline-block;
+    width: 25%;
+}

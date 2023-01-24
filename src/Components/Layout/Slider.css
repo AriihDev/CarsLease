@@ -1,0 +1,38 @@
+.carousel {
+    position: relative;
+}
+
+.carousel .thumbs {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
+.carousel .thumb {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel .overlay {
+    width:80% ;
+    position: relative;
+    top: 50%;
+    transform: translate(-50);
+    left: 10%;
+    padding: 0.4rem 1.5rem;
+    text-align: left;
+    background: black;
+    color: white;
+}
+
+.carousel .overlay_title {
+    margin: 0rem 0 1rem 0;
+}
+
+@media screen and (max-width : 300px) {
+    .carousel .slide img {
+        width: 100vw !important;
+        height: 40vh;
+        object-fit: cover;
+    }
+}

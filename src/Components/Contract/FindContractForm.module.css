@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.form-container {
+
+    align-items: center;
+    min-width: 100%;
+    margin: 0vw;
+    padding: 5vw;
+    position: relative;
+}
+
+
+.form-container label {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+}
+
+
+.form-container input {
+    display: block;
+    color: white;
+    background-color: rgb(24, 73, 61);
+    width: 100%;
+    padding: .2rem .8rem .5rem .8rem;
+    margin: .9vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.submit-container input {
+    padding: .2rem .8rem .5rem .8rem;
+    margin: .9vw 0;
+    background-color: rgb(60, 194, 60);
+}

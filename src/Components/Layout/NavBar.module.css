@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 34%, rgba(24,73,61,1) 57%);
+    margin-bottom: 30px;
+    height: 3rem;
+    width: 100%;
+}
+
+span{
+    color:rgba(24,73,61,1);
+    font-family:'Splash', cursive;
+}
+
+ul{
+    display: flex;
+    width: auto;
+    float: right;
+    margin-top: -30px;
+    
+}
+
+li {
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+a , li {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Aboreto', cursive;
+    z-index: 3;
+    margin-left: 30px;
+}
+
+a:hover {
+    background-color: transparent;
+    color: teal ;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    font-family: 'Aboreto', cursive;
+    color: white;
+}
